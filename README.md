@@ -1,4 +1,3 @@
-# TwentyOneGame
 # Twenty-One (Blackjack) Game
 
 A simple Blackjack card game built with **Java** and **JavaFX**. This project was created to practice Object-Oriented Programming (OOP) and GUI development.
