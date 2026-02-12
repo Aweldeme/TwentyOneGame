@@ -1,6 +1,6 @@
 # Twenty-One (Blackjack) Game
 
-A simple Blackjack card game built with **Java** and **JavaFX**. This project was created to practice Object-Oriented Programming (OOP) and GUI development.
+A simple Blackjack card game built with Java and JavaFX. This project was created to practice Object-Oriented Programming (OOP) and GUI development.
 
 ## About the Project
 
@@ -10,10 +10,10 @@ It features a graphical window where you can hit "Deal," see your cards flip, an
 
 ## How it Works
 
-* **The Deck:** I created a `Deck` class that generates 52 unique `Card` objects (Suits and Ranks) and shuffles them using a randomizing algorithm.
-* **Scoring Logic:** The trickiest part of Blackjack is the Ace (which can be 1 or 11). I wrote a method that calculates the hand's total and automatically adjusts the Ace's value to give the best score without busting.
-* **The UI:** Used JavaFX to handle the buttons and display the card images.
-* **OOP Structure:** The project is split into logical classes:
+* The Deck: I created a `Deck` class that generates 52 unique `Card` objects (Suits and Ranks) and shuffles them using a randomizing algorithm.
+* Scoring Logic: The trickiest part of Blackjack is the Ace (which can be 1 or 11). I wrote a method that calculates the hand's total and automatically adjusts the Ace's value to give the best score without busting.
+* The UI: Used JavaFX to handle the buttons and display the card images.
+* OOP Structure: The project is split into logical classes:
     * `Card.java`: Defines what a card is.
     * `Hand.java`: Manages the cards a player holds.
     * `TwentyOneGame.java`: The main game loop and UI.
